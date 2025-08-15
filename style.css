@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.headerLink {
+  display: flex;
+
+  margin-top: 20px;
+}
+.headerNav {
+  margin-left: 30px;
+  display: flex;
+  margin-top: 24px;
+  gap: 25px;
+}
+.headerNav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+.action {
+  height: 50px;
+  display: flex;
+  gap: 8px;
+}
+.action button {
+  padding: 0 26px;
+  color: #ffffff;
+  background-color: #000000;
+}
+.action img {
+  width: 28px;
+  height: 28px;
+  margin-top: 13px;
+}
+header.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.infoYellow {
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 162px;
+  width: 136px;
+  padding: 10px 5px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #e2b013;
+}
+.designParagraph h2 {
+  font-size: 96px;
+  margin-bottom: 40px;
+}
+.designParagraph h3 {
+  font-size: 50px;
+  margin-bottom: 46px;
+}
+.infoText {
+  width: 627px;
+  font-size: 26px;
+}
+.infoType {
+  display: flex;
+  margin-top: 86px;
+  gap: 66px;
+}
+.infoType div {
+  text-align: center;
+  width: 81px;
+  height: 104px;
+}
+.designInfo {
+  display: flex;
+}
+.designInfoImg {
+  margin-top: 96px;
+}
+.staticPages {
+  display: flex;
+  margin-top: 103px;
+  gap: 50px;
+  margin-bottom: 85px;
+}
+.staticPageImg {
+  margin-top: 40px;
+}
+.staticPage h2 {
+  font-size: 96px;
+  margin-bottom: 43px;
+  width: 528px;
+}
+.staticPage p {
+  font-size: 22px;
+  padding-right: 39px;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
+.staticPage button {
+  padding: 9px 30px 9px 16px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+.staticPageBtn {
+  display: flex;
+  gap: 10px;
+  margin: 8px;
+}
+.landingPages button {
+  margin-top: 120px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 14px 100px 14px 30px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.landingPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 78px;
+  margin-bottom: 100px;
+}
+.landing p {
+  margin-top: 17px;
+  font-size: 26px;
+}
+.landing {
+  width: 634px;
+  padding: 29px 29px 31px 29px;
+  background-color: #f5f5f5;
+}
+.CompanyPages button {
+  margin-top: 107px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 14px 100px 14px 30px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+.CompanyPage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 78px;
+  margin-bottom: 100px;
+}
+.CompanyPage p {
+  text-transform: uppercase;
+  margin-top: 17px;
+  font-size: 26px;
+}
+.Company {
+  width: 403px;
+  padding: 29px 29px 31px 29px;
+  background-color: #f5f5f5;
+}
+.cmsPages button {
+  margin-top: 107px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 14px 100px 14px 30px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+.cmsPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 78px;
+  margin-bottom: 29px;
+}
+.cmsPage p {
+  text-transform: uppercase;
+  margin-top: 17px;
+  font-size: 26px;
+}
+.cms {
+  width: 634px;
+  padding: 29px 29px 31px 29px;
+  background-color: #f5f5f5;
+}
+.UtilityPages button {
+  margin-top: 107px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 14px 100px 14px 30px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 74px;
+}
+.UtilityPage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 78px;
+  margin-bottom: 162px;
+}
+.UtilityPage p {
+  text-transform: uppercase;
+  margin-top: 17px;
+  font-size: 26px;
+}
+.Utility {
+  width: 634px;
+  padding: 29px 29px 31px 29px;
+  background-color: #f5f5f5;
+}
+.socialIcon p {
+  font-size: 24px;
+}
+.whiteBlock {
+  border: 1px solid #e2e1df;
+  width: 380px;
+  height: 40px;
+}
+.blackBlock {
+  margin-top: 30 px;
+  border: 1px solid #e2e1df;
+  background-color: #000000;
+  width: 120px;
+  height: 40px;
+}
+.download {
+  margin-top: 30px;
+  display: flex;
+}
+.icon img {
+  margin-top: 199px;
+  width: 90px;
+  height: 90px;
+}
+.informationFooter {
+  display: flex;
+  gap: 66px;
+}
+
+.informationFooter nav a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  font-size: 15px;
+}
+.allInformation {
+  display: flex;
+  gap: 176px;
+  margin-bottom: 146px;
+}
+.allInformation h3 {
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.allInformation a {
+  margin: 13px 0;
+}
